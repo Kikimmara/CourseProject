@@ -64,7 +64,7 @@
                 <TextBlock x:Name="LocationNameText" Text="Location" FontSize="20" FontWeight="SemiBold" Foreground="AliceBlue" HorizontalAlignment="Center" Margin="0,0,0,15"/>
                 <StackPanel>
                     <Image x:Name="WeatherIcon" Height="80" Width="80" Margin="0,0,20,0" Source="https://openweathermap.org/img/wn/02d@2x.png"/>
-                    <TextBlock x:Name="TemperatureText" Text="23C" FontSize="48" FontWeight="SemiBold" Foreground="White" VerticalAlignment="Center" />
+                    <TextBlock x:Name="TemperatureText" Text="23°C" FontSize="48" FontWeight="SemiBold" Foreground="White" VerticalAlignment="Center" />
                     <TextBlock x:Name="DescriptionText" Text="Weather" FontSize="18" FontWeight="SemiBold" Foreground="White" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,25"/>
                     <Grid Grid.Row="3">
                         <Grid.ColumnDefinitions>
