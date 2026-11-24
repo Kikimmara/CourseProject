@@ -15,6 +15,7 @@ namespace WeatherApp
         private readonly string _apiKey = apiKey;
         private const string BaseUrl = "https://api.openweathermap.org/data/2.5/weather";
 
+
         private static string ConvertQParamsToString(Dictionary<string, string> queryParams)
         {
             return string.Join(
